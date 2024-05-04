@@ -1,0 +1,52 @@
+!SESSION 2024-05-03 15:03:12.187 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/osvaldosneto/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/osvaldosneto/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 15:03:13.294
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 15:03:26.243
+!MESSAGE Logback config file: /Users/osvaldosneto/Documents/Senai/Modelagem/projeto/Pagamentos/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-05-03 15:10:36.935 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/osvaldosneto/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/osvaldosneto/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 15:10:37.777
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 15:10:48.942
+!MESSAGE Logback config file: /Users/osvaldosneto/Documents/Senai/Modelagem/projeto/Pagamentos/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-05-03 15:24:30.931 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/osvaldosneto/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/osvaldosneto/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 15:24:31.940
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 15:25:08.425
+!MESSAGE Logback config file: /Users/osvaldosneto/Documents/Senai/Modelagem/projeto/Pagamentos/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-05-03 15:28:11.217 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/osvaldosneto/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/osvaldosneto/.eclipse_keyring -data /Users/osvaldosneto/Documents/Senai/Modelagem/projeto/Pagamentos
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 15:28:12.046
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 15:28:12.544
+!MESSAGE Logback config file: /Users/osvaldosneto/Documents/Senai/Modelagem/projeto/Pagamentos/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
