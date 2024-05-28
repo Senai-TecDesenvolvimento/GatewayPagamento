@@ -4,8 +4,10 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-@Entity(name = "boleto")
+@Entity
+@Table(name = "boleto")  // Especifica a tabela correspondente, se necessário
 public class Boleto {
 
     @Id
@@ -17,6 +19,8 @@ public class Boleto {
     private Long multa;
     private Long juros;
 
+    public Boleto() {
+    }
 
     public Boleto(Long id, Long numero, String nome, String vencimento, Long multa, Long juros) {
         this.id = id;
@@ -25,9 +29,6 @@ public class Boleto {
         this.vencimento = vencimento;
         this.multa = multa;
         this.juros = juros;
-    }
-
-    public Boleto() {
     }
 
     public Long getId() {
@@ -77,4 +78,24 @@ public class Boleto {
     public void setJuros(Long juros) {
         this.juros = juros;
     }
+
+	public Object getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getAmount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setAmount(Object amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setDescription(Object description) {
+		// TODO Auto-generated method stub
+		
+	}
 }
