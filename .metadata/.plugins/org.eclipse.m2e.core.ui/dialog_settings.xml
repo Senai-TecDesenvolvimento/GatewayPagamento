@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\temp\ws-eclipse\GatewayPagamento"/>
 			<item value="/Users/osvaldosneto/Documents/Senai/Modelagem/projeto/Loja"/>
 			<item value="/Users/osvaldosneto/Documents/Senai/Modelagem/projeto/Pagamentos"/>
 		</list>
