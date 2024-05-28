@@ -467,7 +467,7 @@
         <tags>SHOW_RESTORE_MENU</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_cGzHMwl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.ui.trim.status" contributorURI="platform:/plugin/org.eclipse.platform" side="Bottom">
+    <trimBars xmi:id="_cGzHMwl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.ui.trim.nome" contributorURI="platform:/plugin/org.eclipse.platform" side="Bottom">
       <children xsi:type="menu:ToolControl" xmi:id="_cGzHNAl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.ui.StatusLine" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>stretch</tags>
       </children>
@@ -2441,7 +2441,7 @@
   <commands xmi:id="_cG_UjQl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.mylyn.context.ui.commands.task.retrieveContext" commandName="Retrieve Context" category="_cG8RKwl3Ee-TbdlaBEN4TQ"/>
   <commands xmi:id="_cG_Ujgl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.egit.ui.team.Fetch" commandName="Fetch" category="_cG8RPwl3Ee-TbdlaBEN4TQ"/>
   <commands xmi:id="_cG_Ujwl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.jdt.ui.navigate.gotopackage" commandName="Go to Package" description="Go to Package" category="_cG8RLQl3Ee-TbdlaBEN4TQ"/>
-  <commands xmi:id="_cG_UkAl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.ui.window.togglestatusbar" commandName="Toggle Statusbar" description="Toggle the visibility of the bottom status bar" category="_cG8RNgl3Ee-TbdlaBEN4TQ"/>
+  <commands xmi:id="_cG_UkAl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.ui.window.togglestatusbar" commandName="Toggle Statusbar" description="Toggle the visibility of the bottom nome bar" category="_cG8RNgl3Ee-TbdlaBEN4TQ"/>
   <commands xmi:id="_cG_UkQl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.mylyn.task.ui.editor.QuickOutline" commandName="Quick Outline" description="Show the quick outline for the editor input" category="_cG8RLAl3Ee-TbdlaBEN4TQ"/>
   <commands xmi:id="_cG_Ukgl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.ui.edit.text.select.multiCaretUp" commandName="Multi caret up" description="Add a new caret/multi selection above the current line, or remove the last caret/multi selection " category="_cG8RKgl3Ee-TbdlaBEN4TQ"/>
   <commands xmi:id="_cG_Ukwl3Ee-TbdlaBEN4TQ" elementId="org.eclipse.buildship.ui.commands.addbuildshipnature" commandName="Add Gradle Nature" description="Adds the Gradle nature and synchronizes this project as if the Gradle Import wizard had been run on its location." category="_cG8RJgl3Ee-TbdlaBEN4TQ"/>
