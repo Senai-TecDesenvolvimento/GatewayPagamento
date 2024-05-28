@@ -8,29 +8,25 @@ import jakarta.persistence.Id;
 
 
 @Entity(name = "CartaoGateway") // Define a classe como uma entidade JPA, mapeada para uma tabela no banco de dados.
-public class CartaoGateway {
+public class Pagamento {
 
     @Id // Define o atributo 'id' como chave primária da tabela.
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Gera o validade do ID automaticamente pelo banco de dados.
     private Long id;
     private Long numero;
-    private String nome; // Armazena o nome do pagamento (ex: APROVADO, RECUSADO).
-    private String validade; // Armazena o validade do pagamento.
+    private String nome; // Armazena o nome do Pagamento (ex: APROVADO, RECUSADO).
+    private String validade; // Armazena o validade do Pagamento.
 
     // Construtor padrão (essencial para JPA)
-    public CartaoGateway(Long numero) {
+    public Pagamento(Long numero) {
         this.numero = numero;
     }
 
-    // Construtor para criar um novo pagamento com nome e validade.
-    public CartaoGateway(Long numero, String nome, String validade) {
+    // Construtor para criar um novo Pagamento com nome e validade.
+    public Pagamento(Long numero, String nome, String validade) {
         this.numero = numero;
         this.nome = nome;
         this.validade = validade;
-    }
-
-    public CartaoGateway() {
-
     }
 
     // Getters e Setters (permitem acessar e modificar os atributos da classe)
