@@ -1,6 +1,7 @@
 package com.tdesi.senai.pagamento.controller;
 
 import com.tdesi.senai.pagamento.service.BoletoService;
+import com.tdesi.senai.pagamento.entity.Boleto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
