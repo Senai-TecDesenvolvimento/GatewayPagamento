@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.tdesi.senai.pagamento.entity.Cartao;
+import com.tdesi.senai.pagamento.service.CartaoService;
+
+
 
 
 
@@ -17,10 +21,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/cartao")
 public class CartaoController {
 		
+	@Autowired
+	private CartaoService service;
+	
 	@RequestMapping(method = RequestMethod.GET, value="teste")
     public ResponseEntity<String> teste() {
         return ResponseEntity.ok("OK");
     }
 	
+	@RequestMapping(method = RequestMethod.POST)
+    public ResponseEntity insert (@RequestBody Cartao cartao) {
+        return ResponseEntity.ok(service.insert(cartao));
+    }
 	
 }
