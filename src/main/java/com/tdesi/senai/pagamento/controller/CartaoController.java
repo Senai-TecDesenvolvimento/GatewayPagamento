@@ -34,4 +34,8 @@ public class CartaoController {
         return ResponseEntity.ok(service.insert(cartao));
     }
 	
+	@RequestMapping(method = RequestMethod.GET, value = "/{id}")
+    public ResponseEntity finById(@PathVariable Long id){
+        return ResponseEntity.ok().body(service.findById(id));
+	}
 }
