@@ -43,7 +43,7 @@ public class Pagamento {
         return numero;
     }
 
-    public void setNumero(Long id) {
+    public void setNumero(Long numero) {
         this.numero = numero;
     }
 
