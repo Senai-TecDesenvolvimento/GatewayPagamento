@@ -1,9 +1,11 @@
 package com.tdesi.senai.pagamento.entity;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+@Entity(name = "boleto")
 public class Boleto {
 
     @Id

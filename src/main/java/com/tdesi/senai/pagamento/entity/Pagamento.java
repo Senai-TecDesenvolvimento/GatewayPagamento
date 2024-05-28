@@ -7,7 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 
-@Entity(name = "pagamento") // Define a classe como uma entidade JPA, mapeada para uma tabela no banco de dados.
+@Entity(name = "pagamento")
 public class Pagamento {
 
     @Id
