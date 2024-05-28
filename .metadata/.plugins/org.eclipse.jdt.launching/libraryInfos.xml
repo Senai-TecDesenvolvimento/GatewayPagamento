@@ -24,6 +24,7 @@
         </endorsedDirs>
     </libraryInfo>
     <libraryInfo home="/Users/osvaldosneto/Library/Java/JavaVirtualMachines/corretto-11.0.13/Contents/Home" version="11.0.13"/>
+    <libraryInfo home="C:\Users\EZIQUEL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830" version="17.0.11"/>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home" version="11.0.11"/>
     <libraryInfo home="/Users/osvaldosneto/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.11.v20240426-1830" version="17.0.11"/>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home" version="1.8.0_392">
@@ -49,5 +50,6 @@
             <entry path="/Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/jre/lib/endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Users\EZIQUEL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre" version="17.0.11"/>
     <libraryInfo home="/Users/osvaldosneto/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.11.v20240426-1830/jre" version="17.0.11"/>
 </libraryInfos>

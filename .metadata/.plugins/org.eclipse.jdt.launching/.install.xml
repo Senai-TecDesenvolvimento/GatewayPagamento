@@ -2,8 +2,10 @@
 <dirs>
     <entry loc="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home" stamp="1544935106000"/>
     <entry loc="/Users/osvaldosneto/Library/Java/JavaVirtualMachines/corretto-11.0.13/Contents/Home" stamp="1635272424364"/>
+    <entry loc="C:\Users\EZIQUEL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830" stamp="1716241390457"/>
     <entry loc="/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home" stamp="1628078429819"/>
     <entry loc="/Users/osvaldosneto/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.11.v20240426-1830" stamp="1714651560388"/>
     <entry loc="/Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home" stamp="1697493909000"/>
+    <entry loc="C:\Users\EZIQUEL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre" stamp="1716241390457"/>
     <entry loc="/Users/osvaldosneto/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.11.v20240426-1830/jre" stamp="1714651560388"/>
 </dirs>
