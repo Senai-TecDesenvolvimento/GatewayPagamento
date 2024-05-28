@@ -38,7 +38,7 @@ public class TesteController {
     }
     
     @RequestMapping(method = RequestMethod.GET, value = "/{id}")
-    public ResponseEntity finById(@PathVariable Long id){
+    public ResponseEntity findById(@PathVariable Long id){
         return ResponseEntity.ok().body(service.findById(id));
     }
     
