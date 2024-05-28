@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tdesi.senai.pagamento.entity.Cartao;
+import com.tdesi.senai.pagamento.entity.Teste;
 import com.tdesi.senai.pagamento.service.CartaoService;
 
 
@@ -38,4 +39,9 @@ public class CartaoController {
     public ResponseEntity finById(@PathVariable Long id){
         return ResponseEntity.ok().body(service.findById(id));
 	}
+	
+	@RequestMapping(method = RequestMethod.PUT, value = "/{id}")
+    public ResponseEntity edit(@RequestBody Cartao cartao, @PathVariable Long id){
+    	return ResponseEntity.ok(service.insert(cartao));
+    	}
 }
