@@ -33,4 +33,9 @@ public class PagamentoController {
 	 public ResponseEntity findById(@PathVariable Long id){
 	    return ResponseEntity.ok().body(service.findById(id));
 	 }
+
+	@RequestMapping(method = RequestMethod.PUT, value = "/{id}")
+	public ResponseEntity edit(@RequestBody Pagamento pagamento, @PathVariable Long id){
+		return ResponseEntity.ok(service.insert(pagamento));
+	}
 }
