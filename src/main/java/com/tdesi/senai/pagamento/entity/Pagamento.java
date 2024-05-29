@@ -30,4 +30,14 @@ public class Pagamento {
     public void setId(Long id) {
         this.id = id;
     }
+
+	public String getStatus() {
+		return Status;
+	}
+
+	public void setStatus(String status) {
+		Status = status;
+	}
+    
+    
 }
