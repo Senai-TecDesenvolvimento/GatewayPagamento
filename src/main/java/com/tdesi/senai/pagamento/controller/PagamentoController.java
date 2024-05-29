@@ -33,4 +33,10 @@ public class PagamentoController {
 	 public ResponseEntity findById(@PathVariable Long id){
 	    return ResponseEntity.ok().body(service.findById(id));
 	 }
+	 
+	 @RequestMapping(method = RequestMethod.DELETE, value = "/{id}")
+	    public ResponseEntity deleteById(@PathVariable Long id){
+	    	service.deleteById(id);
+	    	return ResponseEntity.ok().build();
+	 }
 }
